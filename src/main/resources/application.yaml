@@ -1,0 +1,9 @@
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: metrics,prometheus
+  server:
+    port: 9090
+    address: 0.0.0.0
